@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  CoreImageDemo
-
+//  Israr
 //
 
 import UIKit
@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         let coreImage = CIImage(cgImage: cgimg)
         
         let sepiaFilter = CIFilter(name: "CISepiaTone")
+       
         sepiaFilter?.setValue(coreImage, forKey: kCIInputImageKey)
         sepiaFilter?.setValue(1, forKey: kCIInputIntensityKey)
         

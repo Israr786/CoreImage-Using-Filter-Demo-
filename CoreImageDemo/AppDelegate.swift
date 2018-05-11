@@ -1,10 +1,7 @@
 //
 //  AppDelegate.swift
 //  CoreImageDemo
-//
-
-
-//
+//   Israr
 
 import UIKit
 
